@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import todosData from './data/todosData'
 
 function App() {
   return (
