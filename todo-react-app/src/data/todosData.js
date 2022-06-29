@@ -5,7 +5,7 @@ const tasks = [
       "description": "start 30 days of JS and deploy each project to Github"
     },
     {
-      "tile": "Exercism",
+      "title": "Exercism",
       "time": "5 days",
       "description": "complete JS track on Exercism.com"
     },
