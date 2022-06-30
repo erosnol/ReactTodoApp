@@ -1,23 +1,20 @@
+
 const Navbar = () => {
     return (
-        <nav style={styles.navStyle}> 
+    
+        <nav className="nav"> 
+
+            <div className="title">
             <h1>Goals App</h1>
-
-            <ul>
-                <li>Home</li>
-                <li>Tasks</li>
-            </ul>
-        </nav>
-     )
-}
-
-const styles = {
-    navStyle: {
-        display: 'flex',
-        justifyContent: 'space-around',
-        border: 'solid red 2px'
+            </div>
         
-    }
+          <ul>Home
+             Tasks
+         </ul>
+
+        </nav>
+    
+     )
 }
 
 export default Navbar

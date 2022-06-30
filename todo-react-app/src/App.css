@@ -1,47 +1,53 @@
+:root {
+    --red: #e63946;
+    --white-ish: #f1faee;
+    --yankees-blue: #a8dadc;
+    --sea-serpent: #457b9d;
+    --aquamarine: #1d3557;
+    --react: #00d8ff;
+  }
+
+ 
+
+
+#root {
+    display: grid;
+    background-color: var(--react);
+    height: 100vh;
+}
+
+#root {
+    display: grid;
+    grid-template: 
+    'Header'
+    'Content'
+    'Footer';
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr 65px;
+}
+
+Header {
+    display: flex;
+  
+}
+
+Content {
+    display: flex;
+}
+
+Footer {
+    display: flex;
+}
+
+.title {
+    grid-area: Header;
+    
+}
+
 .App {
-  text-align: center;
+    grid-area: Content;
+    justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
-
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 
 

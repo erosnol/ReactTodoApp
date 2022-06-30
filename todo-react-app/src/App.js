@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import TodosList  from './components/TodosList'
 
 class App extends Component {
-
+  
   state = {
     taskData: taskData,
     value: ''
@@ -22,7 +22,6 @@ class App extends Component {
   handleSubmit = (event) => {
     event.preventDefault()
     
-
     const newTask = {
       title: this.state.taskTitle,
       time: this.state.taskTime,
@@ -62,6 +61,7 @@ class App extends Component {
         </div>
       );
     }
+  
 }
 
 
